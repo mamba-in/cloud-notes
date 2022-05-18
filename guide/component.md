@@ -51,7 +51,7 @@ export default defineComponent({
 
 只注册需要的组件
 
-代码地址：[src/components/registerGlobComp.ts](https://code.99elink.com/wanglei/mingtian-transportation/-/blob/master/src/components/registerGlobComp.ts)
+代码地址：[src/components/registerGlobComp.ts](https://github.com/mamba-in/mamba-forever/blob/main/src/components/registerGlobComp.ts)
 
 ```ts
 import {

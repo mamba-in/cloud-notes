@@ -2,7 +2,7 @@
 
 ## 简介
 
-[Mingtian-Transportation](https://code.99elink.com/wanglei/mingtian-transportation) 是一个基于 [Vue3.0](https://github.com/vuejs/core)、[Vite](https://github.com/vitejs/vite)、 [Ant-Design-Vue](https://antdv.com/docs/vue/introduce-cn/)、[TypeScript](https://www.typescriptlang.org/) 搭建的中后台项目，为开发中大型项目提供开箱即用的解决方案。包括二次封装组件、utils、hooks、动态菜单、权限校验、按钮级别权限控制等功能。项目使用了前端较新的技术栈，可以快速搭建企业级中后台产品原型。
+[Mamba-Forever](https://github.com/mamba-in/mamba-forever) 是一个基于 [Vue3.0](https://github.com/vuejs/core)、[Vite](https://github.com/vitejs/vite)、 [Ant-Design-Vue](https://antdv.com/docs/vue/introduce-cn/)、[TypeScript](https://www.typescriptlang.org/) 搭建的中后台项目，为开发中大型项目提供开箱即用的解决方案。包括二次封装组件、utils、hooks、动态菜单、权限校验、按钮级别权限控制等功能。项目使用了前端较新的技术栈，可以快速搭建企业级中后台产品原型。
 
 ## 特性
 
@@ -25,7 +25,7 @@
 - [Ant-Design-Vue](https://antdv.com/docs/vue/introduce-cn/) - ui 基本使用
 - [Mock.js](https://github.com/nuysoft/Mock) - mockjs 基本语法
 - [Pinia](https://pinia.vuejs.org/) - `Pinia` 更好用的状态管理工具
-- [WindiCss](https://windicss.netlify.app/) - 简单搞笑的`css`库
+- [WindiCss](https://windicss.netlify.app/) - 简单高效的`css`库
 
 
 ### 本地运行
@@ -37,16 +37,17 @@
 :::
 
 ```bash
-# 拉取代码
-git clone https://code.99elink.com/wanglei/mingtian-transportation.git
+# 安装CLI
+$ pnpm add -g nkk-cli
 
-cd mingtian-transportation
 
-# 安装依赖
-pnpm install
+# 创建项目
+$ kk create <app-name>
+#Or nkk-cli create <app-name>
 
 # 运行项目
-pnpm serve
+$ cd <app-name>
+$ pnpm serve
 ```
 
 ## 浏览器支持

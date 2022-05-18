@@ -1,6 +1,6 @@
 # 菜单
 
-项目菜单配置存放于 [src/router/menus](https://code.99elink.com/wanglei/mingtian-transportation/-/tree/master/src/router/menus) 
+项目菜单配置存放于 [src/router/menus](https://github.com/mamba-in/mamba-forever-/tree/master/src/router/menus) 
 
 ::: tip 提示
 

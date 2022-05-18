@@ -1,12 +1,12 @@
 # 路由
 
-项目路由配置存放于 [src/router/routes](https://code.99elink.com/wanglei/mingtian-transportation/-/tree/master/src/router/routes) 下面。 [src/router/routes/modules](https://code.99elink.com/wanglei/mingtian-transportation/-/tree/master/src/router/routes/modules)用于存放路由模块，在该目录下的文件会自动注册。
+项目路由配置存放于 [src/router/routes](https://github.com/mamba-in/mamba-forever/-/tree/master/src/router/routes) 下面。 [src/router/routes/modules](https://github.com/mamba-in/mamba-forever/-/tree/master/src/router/routes/modules)用于存放路由模块，在该目录下的文件会自动注册。
 
 ## 配置
 
 ### 模块说明
 
-在 [src/router/routes/modules](https://code.99elink.com/wanglei/mingtian-transportation/-/tree/master/src/router/routes/modules) 内的 `.ts` 文件会被视为一个路由模块。
+在 [src/router/routes/modules](https://github.com/mamba-in/mamba-forever/-/tree/master/src/router/routes/modules) 内的 `.ts` 文件会被视为一个路由模块。
 
 一个路由模块包含以下结构
 
@@ -142,7 +142,7 @@ export default permission;
 
 ### 如何新增一个路由模块
 
-1. 在 [src/router/routes/modules](https://code.99elink.com/wanglei/mingtian-transportation/-/tree/master/src/router/routes/modules) 内新增一个模块文件。
+1. 在 [src/router/routes/modules](https://github.com/mamba-in/mamba-forever/-/tree/master/src/router/routes/modules) 内新增一个模块文件。
 
 示例，新增 test.ts 文件
 
@@ -177,7 +177,7 @@ const dashboard: AppRouteModule = {
 export default dashboard;
 ```
 
-此时路由已添加完成，不需要手动引入，放在[src/router/routes/modules](https://github.com/vbenjs/vue-vben-admin/tree/main/src/router/routes/modules) 内的文件会自动被加载。
+此时路由已添加完成，不需要手动引入，放在[src/router/routes/modules](https://github.com/mamba-in/mamba-forever/tree/main/src/router/routes/modules) 内的文件会自动被加载。
 
 ### 验证
 
@@ -204,7 +204,7 @@ export default defineComponent({
 
 ### Redirect
 
-[src/views/sys/redirect/index.vue](https://code.99elink.com/wanglei/mingtian-transportation/-/blob/master/src/views/sys/redirect/index.vue)
+[src/views/sys/redirect/index.vue](https://github.com/mamba-in/mamba-forever/tree/main/src/views/sys/redirect/index.vue)
 
 ```ts
 import { defineComponent, unref } from 'vue';

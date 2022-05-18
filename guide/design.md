@@ -4,7 +4,7 @@
 
 默认使用 less 作为预处理语言。
 
-项目中使用的通用样式，都存放于 [src/design](https://code.99elink.com/wanglei/mingtian-transportation/-/tree/master/src/design) 下面。
+项目中使用的通用样式，都存放于 [src/design](https://github.com/mamba-in/mamba-forever/-/tree/master/src/design) 下面。
 
 ```bash
 .

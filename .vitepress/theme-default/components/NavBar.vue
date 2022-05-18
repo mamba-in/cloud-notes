@@ -11,7 +11,7 @@
     </div>
 
     <div class="nav-icons">
-      <div class="item">
+      <div class="item" v-if="false">
         <dark-mode-switch />
       </div>
       <div v-if="repo" class="item">

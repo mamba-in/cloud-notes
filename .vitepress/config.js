@@ -16,6 +16,12 @@ module.exports = {
     editLinkText: '为此页提供修改建议',
     nav: createNav(),
     sidebar: createSidebar(),
+    
+    algolia: {
+      appId: '8J64VVRP8K',
+      apiKey: 'a18e2f4cc5665f6602c5631fd868adfd',
+      indexName: 'vitepress',
+    },
   },
 };
 
@@ -29,7 +35,7 @@ function createHead() {
       'meta',
       {
         name: 'keywords',
-        content: 'vben, vitejs, vite, ant-design-vue, vue',
+        content: 'vitejs, vite, ant-design-vue, vue',
       },
     ],
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/player.svg' }],
@@ -91,9 +97,13 @@ function createNav() {
       ],
     },
     {
-      text: 'Bookmark',
+      text: '书签',
       link: '/bookmark/'
     },
+    {
+      text: '读书笔记',
+      link: '/read/'
+    }
 
   ];
 }
@@ -102,7 +112,7 @@ function createSidebar() {
   return {
     '/': [
       {
-        text: 'Mingtian Transportation',
+        text: 'Mamba Forever',
         children: [
           {
             text: '介绍',
@@ -138,12 +148,12 @@ function createSidebar() {
         text: '深入',
         children: [
           {
-            text: '图标',
-            link: '/dep/icon',
-          },
-          {
             text: '项目规范',
             link: '/dep/lint',
+          },
+          {
+            text: '图标',
+            link: '/dep/icon',
           },
         ],
       },
@@ -156,7 +166,8 @@ function createSidebar() {
           },
         ],
       },
-    ]
+    ],
+    '/read': 'auto'
   };
 }
 
