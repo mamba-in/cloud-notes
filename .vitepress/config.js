@@ -48,6 +48,7 @@ function createHead() {
       },
     ],
     ['meta', { name: 'keywords', content: 'cloud notes' }],
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
   ];
 }
 
