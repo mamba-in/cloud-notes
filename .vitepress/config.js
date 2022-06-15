@@ -7,7 +7,7 @@ module.exports = {
   title: 'Cloud Notes',
   lang: 'zh-CN',
   description: ' ',
-  head: createHead(),
+  head: [['link', { rel: 'icon', type: 'image/svg+xml', href: '/player.svg' }]],
   themeConfig: {
     repo: 'mamba-in/cloud-notes',
     logo: '/player.svg',
