@@ -18,9 +18,9 @@ module.exports = {
     sidebar: createSidebar(),
     
     algolia: {
-      appId: '8J64VVRP8K',
-      apiKey: 'a18e2f4cc5665f6602c5631fd868adfd',
-      indexName: 'vitepress',
+      appId: '3S4TN0KMNQ',
+      apiKey: 'b6e85d20caa8f6a4dd436b66c6fa9f46',
+      indexName: 'cloud-notes',
     },
   },
 };
@@ -110,7 +110,7 @@ function createNav() {
 
 function createSidebar() {
   return {
-    '/': [
+    '/guide': [
       {
         text: 'Mamba Forever',
         children: [
@@ -167,7 +167,15 @@ function createSidebar() {
         ],
       },
     ],
-    '/read': 'auto'
+    '/read': [{
+      text: '思考',
+      children: [
+        {
+          text: '从张一鸣身上可以学到什么',
+          link: '/read/thoughts/20220605'
+        }
+      ]
+    }]
   };
 }
 

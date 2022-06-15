@@ -38,12 +38,12 @@
 
 ```bash
 # 安装CLI
-$ pnpm add -g nkk-cli
+$ pnpm add -g nk-cli
 
 
 # 创建项目
 $ kk create <app-name>
-#Or nkk-cli create <app-name>
+#Or nk-cli create <app-name>
 
 # 运行项目
 $ cd <app-name>

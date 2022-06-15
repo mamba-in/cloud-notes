@@ -5,6 +5,8 @@
     <NavBarTitle />
 
     <div class="flex-grow" />
+    
+    <slot name="search" />
 
     <div class="nav">
       <NavLinks />
@@ -25,7 +27,6 @@
         </a>
       </div>
     </div>
-    <slot name="search" />
   </header>
 </template>
 

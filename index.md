@@ -1,11 +1,11 @@
 ---
 home: true
-heroImage: /logo.svg
-actionText: 关于文档
+heroImage: /dunck.jpeg
+actionText: 快速开始 →
 actionLink: /guide/introduction
 
-altActionText: 快速开始 →
-altActionLink: /guide/index
+altActionText: 在线预览
+altActionLink: https://mamba-in.github.io/mamba-forever/
 
 # features:
 #   - title: 💡 最新技术栈

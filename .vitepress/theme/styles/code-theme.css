@@ -266,7 +266,7 @@ html.light .token.char {
 html.light .token.selector,
 html.light .token.function,
 html.light .token.doctype {
-  color: rgb(153, 76, 195);
+  color: #0c458a;
 }
 
 html.light .token.attr-name,

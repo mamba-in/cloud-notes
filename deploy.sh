@@ -19,3 +19,10 @@ git commit -m 'deploy'
 git push -f git@github.com:mamba-in/cloud-notes.git master:gh-pages
 
 cd -
+
+git add -A
+read -p "Please enter the commit message:" COMMIT_MESSAGE
+echo "Commit message: $COMMIT_MESSAGE"
+git commit -m "$COMMIT_MESSAGE"
+git push
+echo '✨ Deploy finished'
