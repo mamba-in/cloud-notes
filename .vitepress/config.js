@@ -20,7 +20,7 @@ module.exports = {
     algolia: {
       appId: '3S4TN0KMNQ',
       apiKey: 'b6e85d20caa8f6a4dd436b66c6fa9f46',
-      indexName: 'cloud-notes-test',
+      indexName: 'cloud-notes',
     },
   },
 };
