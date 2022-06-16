@@ -25,7 +25,7 @@
 - [Ant-Design-Vue](https://antdv.com/docs/vue/introduce-cn/) - ui 基本使用
 - [Mock.js](https://github.com/nuysoft/Mock) - mockjs 基本语法
 - [Pinia](https://pinia.vuejs.org/) - `Pinia` 更好用的状态管理工具
-- [WindiCss](https://windicss.netlify.app/) - 简单高效的`css`库
+- [Tailwind CSS](https://tailwindcss.com/) - 简单高效的`css`库
 
 
 ### 本地运行

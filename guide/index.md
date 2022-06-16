@@ -18,7 +18,7 @@
 IDE 推荐使用[vscode](https://code.visualstudio.com/)，可以安装以下工具来提高开发效率及代码格式化
 
 - [Iconify IntelliSense](https://marketplace.visualstudio.com/items?itemName=antfu.iconify) - Iconify 图标插件
-- [windicss IntelliSense](https://marketplace.visualstudio.com/items?itemName=voorjaar.windicss-intellisense) - windicss 提示插件
+- [Tailwindcss IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) - Tailwind CSS 提示插件
 - [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) - vue3 开发必备(推荐)
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) - 脚本代码检查
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - 代码格式化
