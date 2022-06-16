@@ -7,7 +7,7 @@ module.exports = {
   title: 'Cloud Notes',
   lang: 'zh-CN',
   description: ' ',
-  head: [['link', { rel: 'icon', type: 'image/svg+xml', href: '/player.svg' }]],
+  head: createHead(),
   themeConfig: {
     repo: 'mamba-in/cloud-notes',
     logo: '/player.svg',
@@ -20,7 +20,7 @@ module.exports = {
     algolia: {
       appId: '3S4TN0KMNQ',
       apiKey: 'b6e85d20caa8f6a4dd436b66c6fa9f46',
-      indexName: 'cloud-notes',
+      indexName: 'cloud-notes-test',
     },
   },
 };
