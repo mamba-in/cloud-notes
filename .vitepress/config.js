@@ -167,15 +167,30 @@ function createSidebar() {
         ],
       },
     ],
-    '/read': [{
-      text: '思考',
-      children: [
-        {
-          text: '从张一鸣身上可以学到什么',
-          link: '/read/thoughts/20220605'
-        }
-      ]
-    }]
+    '/read': [
+      {
+        text: '读书',
+        children: [
+          {
+            text: '人类的群星闪耀时',
+            link: '/read/books/人类的群星闪耀时'
+          }
+        ]
+      },
+      {
+        text: '思考',
+        children: [
+          {
+            text: '什么是强者',
+            link: 'read/thoughts/什么是强者'
+          },
+          {
+            text: '从张一鸣身上可以学到什么',
+            link: '/read/thoughts/20220605'
+          }
+        ]
+      },
+    ]
   };
 }
 
