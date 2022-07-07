@@ -110,7 +110,7 @@ function createNav() {
 
 function createSidebar() {
   return {
-    '/guide': [
+    '/': [
       {
         text: 'Mamba Forever',
         children: [
