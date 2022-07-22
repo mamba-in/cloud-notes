@@ -111,15 +111,15 @@ function createNav() {
 function createSidebar() {
   return {
     '/read/': [
-      {
-        text: '读书',
-        children: [
-          {
-            text: '人类的群星闪耀时',
-            link: '/read/books/人类的群星闪耀时'
-          }
-        ]
-      },
+      // {
+      //   text: '读书',
+      //   children: [
+      //     {
+      //       text: '人类的群星闪耀时',
+      //       link: '/read/books/人类的群星闪耀时'
+      //     }
+      //   ]
+      // },
       {
         text: '思考',
         children: [
