@@ -124,6 +124,10 @@ function createSidebar() {
         text: '思考',
         children: [
           {
+            text: '规范化的重要性',
+            link: 'read/thoughts/20220722'
+          },
+          {
             text: '什么是强者',
             link: 'read/thoughts/什么是强者'
           },
